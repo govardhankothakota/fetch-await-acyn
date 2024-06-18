@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: aliceblue;
+}
+.movieImg,.productImg,.phoneImg{
+  width: 100px;
+  object-fit: contain;
+}
+.productImg{
+  width: 200px;
+  height: 200px;
+}
+.phoneImg{
+  width: 150px;
+}
+
+
+.movieContainer,.productContainer,.phoneContainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: center;
+justify-content: space-evenly;
+}
+.movieDiv,.productDiv,.phoneDiv{
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+.phoneDiv{
+  height: 300px;
+}
